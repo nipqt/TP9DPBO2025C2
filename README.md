@@ -28,3 +28,9 @@ Adapun tambahannya sebagai berikut:
 - Untuk "Edit" dan "Delete" ada pada setiap list data
 
 # Dokumentasi
+![](https://github.com/nipqt/TP9DPBO2025C2/blob/main/Dokumentasi/1.jpeg)
+![](https://github.com/nipqt/TP9DPBO2025C2/blob/main/Dokumentasi/2.jpeg)
+![](https://github.com/nipqt/TP9DPBO2025C2/blob/main/Dokumentasi/3.jpeg)
+![](https://github.com/nipqt/TP9DPBO2025C2/blob/main/Dokumentasi/4.jpeg)
+![](https://github.com/nipqt/TP9DPBO2025C2/blob/main/Dokumentasi/5.jpeg)
+![](https://github.com/nipqt/TP9DPBO2025C2/blob/main/Dokumentasi/6.jpeg)
