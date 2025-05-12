@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Mahasiswa</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4 text-center">Edit Data Mahasiswa</h2>
+        <form action="index.php" method="POST" class="border p-4 rounded shadow-sm bg-light">
+            <input type="hidden" name="id" value="{{ID}}">
+            
+            <div class="form-group">
+                <label for="nim">NIM</label>
+                <input type="text" class="form-control" name="nim" value="{{NIM}}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" class="form-control" name="nama" value="{{NAMA}}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tempat">Tempat Lahir</label>
+                <input type="text" class="form-control" name="tempat" value="{{TEMPAT}}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tl">Tanggal Lahir</label>
+                <input type="date" class="form-control" name="tl" value="{{TL}}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select name="gender" class="form-control" required>
+                    <option value="">-- Pilih Gender --</option>
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="email" value="{{EMAIL}}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telp">Telepon</label>
+                <input type="text" class="form-control" name="telp" value="{{TELPON}}" required>
+            </div>
+
+            <div class="text-right">
+                <button type="submit" name="update" class="btn btn-primary">Update</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
